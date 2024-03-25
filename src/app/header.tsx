@@ -9,7 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { DeleteIcon, LogInIcon, LogOutIcon } from "lucide-react";
+import { Trash, LogInIcon, LogOutIcon } from "lucide-react";
 import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
@@ -77,7 +77,7 @@ function AccountDropdown() {
               })
             }
           >
-            <LogOutIcon className="mr-2" /> Sign Out
+            <LogOutIcon className="mr-2 h-4 w-5" /> Sign Out
           </DropdownMenuItem>
 
           <DropdownMenuItem
@@ -85,7 +85,7 @@ function AccountDropdown() {
               setOpen(true);
             }}
           >
-            <DeleteIcon className="mr-2" /> Delete Account
+            <Trash className="mr-2 h-4 w-4" /> Delete Account
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
@@ -101,7 +101,13 @@ export function Header() {
     <header className="bg-gray-100 py-2 dark:bg-gray-900 z-10 relative">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex gap-2 items-center text-xl">
-          <Image src="/logo.jpg" width="60" height="60" alt="logo" />
+          <Image
+            src="/logo.jpg"
+            className="h-10 w-10 rounded-full"
+            width="60"
+            height="60"
+            alt="logo"
+          />
           <p className={cedarville.className}>Dev SyncSpace</p>
         </Link>
 
@@ -123,7 +129,7 @@ export function Header() {
           {isLoggedIn && <AccountDropdown />}
           {!isLoggedIn && (
             <Button onClick={() => signIn()} variant="link">
-              <LogInIcon className="mr-2" /> Sign In
+              <LogInIcon className="mr-2 h-4 w-4" /> Sign In
             </Button>
           )}
           <ModeToggle />
