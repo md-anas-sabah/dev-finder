@@ -28,11 +28,11 @@ export default function LandingPage() {
             />
 
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-              Find other awesome devs to pair with online
+              Connect with skilled developers for online pairing sessions.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-200">
-              This platform is for sharing your screen and working with other
-              random developers online so that you can work together
+              Collaborative platform for screen sharing and real-time coding
+              with random developers for seamless teamwork.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
