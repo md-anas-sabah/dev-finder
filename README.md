@@ -9,6 +9,7 @@ Dev SyncSpace is a web application designed to facilitate pair programming sessi
 <b>Video Chat: </b>  Collaborate face-to-face with fellow developers through integrated video chat functionality. <br>
 <b>Screen Sharing: </b> Share your screen with others to showcase code, debug, or demonstrate concepts. <br>
 <b>Tagged Rooms: </b> Categorize rooms with tags to easily find discussions on specific topics, such as TypeScript, JavaScript frameworks, or design patterns.
+<b>Toggle Light/Dark Mode: </b>Offers users the option to switch between dark mode and light mode to customize their visual experience
 
 <h3>Technologies Used</h3>
 
