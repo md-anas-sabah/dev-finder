@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Dev SyncSpace</h1>
 
-## Getting Started
+Dev SyncSpace is a web application designed to facilitate pair programming sessions with random developers. It leverages Next.js for server-side rendering, routing, and various optimization features, PostgreSQL for data storage, Tailwind CSS for styling, and React SDK for front-end interactivity. With features like Google sign-in, room creation, editing, and deletion, as well as video chat capabilities within rooms, developers can seamlessly collaborate on coding projects.
 
-First, run the development server:
+<h3>Features</h3>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<b>Google Sign-In: </b> Sign in securely with your Google account using Next-Auth for authentication. <br>
+<b>Room Management: </b> Create, edit, and delete rooms to organize your pair programming sessions effectively. <br>
+<b>Video Chat: </b>  Collaborate face-to-face with fellow developers through integrated video chat functionality. <br>
+<b>Screen Sharing: </b> Share your screen with others to showcase code, debug, or demonstrate concepts. <br>
+<b>Tagged Rooms: </b> Categorize rooms with tags to easily find discussions on specific topics, such as TypeScript, JavaScript frameworks, or design patterns.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Technologies Used</h3>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<b>Next.js: </b>Utilized for efficient server-side rendering, routing, and optimization features such as Incremental Static Regeneration, Automatic Image Optimization, and API Routes. <br>
+<b>PostgreSQL: </b>Powering the database for storing user accounts, room data, and tags. <br>
+<b>Tailwind CSS: </b>Providing a utility-first CSS framework for streamlined styling and customization. <br>
+<b>React SDK: </b>Building interactive user interfaces for seamless user experiences. <br>
+<b>Next-Auth: </b>Handling authentication seamlessly with various providers including Google. <br>
+<b>Drizzle ORM: </b>An ORM (Object-Relational Mapping) library for PostgreSQL, used for interacting with the database. <br>
+<b>Zod: </b>A TypeScript-first schema declaration and validation library used for data validation. <br>
