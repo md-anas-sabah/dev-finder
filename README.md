@@ -1,6 +1,6 @@
-<h1>Dev SyncSpace</h1>
+<h1>Dev Finder</h1>
 
-Dev SyncSpace is a web application designed to facilitate pair programming sessions with random developers. It leverages Next.js for server-side rendering, routing, and various optimization features, PostgreSQL for data storage, Tailwind CSS for styling, and React SDK for front-end interactivity. With features like Google sign-in, room creation, editing, and deletion, as well as video chat capabilities within rooms, developers can seamlessly collaborate on coding projects.
+Dev Finder is a web application designed to facilitate pair programming sessions with random developers. It leverages Next.js for server-side rendering, routing, and various optimization features, PostgreSQL for data storage, Tailwind CSS for styling, and React SDK for front-end interactivity. With features like Google sign-in, room creation, editing, and deletion, as well as video chat capabilities within rooms, developers can seamlessly collaborate on coding projects.
 
 <h3>Features</h3>
 
